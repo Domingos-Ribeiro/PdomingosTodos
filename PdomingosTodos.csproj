@@ -108,6 +108,7 @@
     <Compile Include="Controllers\DadosClientesController.cs" />
     <Compile Include="Controllers\EventoesController.cs" />
     <Compile Include="Controllers\FuncionariosController.cs" />
+    <Compile Include="Controllers\InicioController.cs" />
     <Compile Include="Controllers\ReuniaosController.cs" />
     <Compile Include="Controllers\TarefasController.cs" />
     <Compile Include="Controllers\TempoGastoesController.cs" />
@@ -173,6 +174,7 @@
     <Content Include="Views\Clientes\Details.cshtml" />
     <Content Include="Views\Clientes\Edit.cshtml" />
     <Content Include="Views\Clientes\Index.cshtml" />
+    <Content Include="Views\Inicio\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
