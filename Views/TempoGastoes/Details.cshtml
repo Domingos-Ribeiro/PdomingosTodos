@@ -1,0 +1,42 @@
+﻿@model PdomingosTodos.Models.TempoGasto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TempoGasto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TempoUsado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TempoUsado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Minutos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Minutos)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
