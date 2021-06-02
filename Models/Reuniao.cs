@@ -29,5 +29,7 @@ namespace PdomingosTodos.Models
         public int FuncionarioId { get; set; } // Chave Estrangeira
         public virtual Funcionario Funcionario { get; set; }
 
+        //public int ClienteId { get; set; } // Chave Estrangeira
+        //public virtual Cliente Cliente { get; set; }
     }
 }

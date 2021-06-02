@@ -120,6 +120,10 @@
     <Compile Include="Migrations\202106010459028_versao18.Designer.cs">
       <DependentUpon>202106010459028_versao18.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106010603123_versao20.cs" />
+    <Compile Include="Migrations\202106010603123_versao20.Designer.cs">
+      <DependentUpon>202106010603123_versao20.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\DadosCliente.cs" />
@@ -188,6 +192,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202106010459028_versao18.resx">
       <DependentUpon>202106010459028_versao18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106010603123_versao20.resx">
+      <DependentUpon>202106010603123_versao20.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

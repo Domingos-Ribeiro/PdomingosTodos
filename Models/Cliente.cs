@@ -24,10 +24,6 @@ namespace PdomingosTodos.Models
         public string Contacto { get; set; }
 
 
-        //public int TempoId { get; set; }
-        //public int ReuniaoId { get; set; }
-        //public int DadosClienteId { get; set; }
-        //public int FuncionarioId { get; set; }
 
 
     }
