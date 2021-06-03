@@ -9,7 +9,7 @@ namespace PdomingosTodos.Models
 {
     public class DadosCliente
     {
-        public int Id { get; set; } // Chave Primaria
+        public int Id { get; set; } / Chave Primaria
         public string DNomeCliente { get; set; }
 
         [Display(Name = "Tipo de Dados")]
