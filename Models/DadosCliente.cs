@@ -25,6 +25,7 @@ namespace PdomingosTodos.Models
 
         public int ClienteId { get; set; } // Chave Estrangeira
         public virtual Cliente Cliente { get; set; }
-
+        
+        //teste
     }
 }
